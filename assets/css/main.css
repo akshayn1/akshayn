@@ -1116,6 +1116,26 @@ body {
         display: none
     }
 }
+.about--main{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    max-width: 75%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
 
 .about {
     position: relative;
@@ -1124,7 +1144,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 900px;
-    max-width: 75%;
+    /* max-width: 75%; */
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1172,7 +1192,65 @@ body {
     height: 10px;
     background-color: #F28500
 }
-
+.skills{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    /* max-width: 75%; */
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+.skills h3{
+    font-size: 16px;
+    text-transform: uppercase
+}
+.skills p {
+    margin-bottom: 0
+}
+.skills img {
+   
+    position: absolute;
+    bottom: 130px;
+    right: -12px
+}
+.go--back{
+    position: absolute;
+    top: 160px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #282828;
+    border-radius: 50%;
+    cursor: pointer
+}
+.go--back svg{
+    width: 20px;
+    fill: white;
+    
+}
 .about--banner h2 {
     position: relative;
     margin-top: 35px;
