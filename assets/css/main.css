@@ -1213,7 +1213,7 @@ body {
     margin: 0 auto
 }
 .skills h3{
-    font-size: 16px;
+    font-size: 19px;
     text-transform: uppercase
 }
 .skills p {
@@ -1337,7 +1337,7 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/about-skills.jpg")
 }
 
 .about--options>a:nth-child(2) {
