@@ -1512,7 +1512,7 @@ body {
     position: absolute;
     height: 35px;
     width: 16px;
-    background-color: grey;
+    background-color: rgb(53, 53, 53);
     transition: background-color 0.5s ease;
 
 
@@ -1606,6 +1606,152 @@ body {
     top: 592px;
     left: 488px;
     rotate: 0deg;
+}
+
+.sslc {
+    position: absolute;
+    top: 462px;
+    left: 624px;
+    background-color: grey;
+    width: 261px;
+    height: 152px;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(249, 249, 249, 0.19);
+    border: 2px solid #F28500;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+
+.sslc h2 {
+    position: absolute;
+    left: 28%;
+}
+
+.sslc hr {
+    position: absolute;
+    width: 240px;
+    top: 44px;
+    left: 10px;
+}
+
+.sslc p {
+    position: absolute;
+    top: 47px;
+    margin-left: 20px;
+}
+
+.sslc-triangle {
+    top: 483px;
+    left: 500px;
+    rotate: 90deg;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid grey;
+    margin: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+.plustwo {
+    position: absolute;
+    top: 243px;
+    left: -64px;
+    background-color: grey;
+    width: 261px;
+    height: 152px;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(249, 249, 249, 0.19);
+    border: 2px solid #F28500;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.plustwo h2 {
+    position: absolute;
+    left: 28%;
+}
+
+.plustwo hr {
+    position: absolute;
+    width: 240px;
+    top: 44px;
+    left: 10px;
+}
+
+.plustwo p {
+    position: absolute;
+    top: 47px;
+    margin-left: 20px;
+}
+
+.plustwo-triangle {
+    top: 264px;
+    left: 160px;
+    rotate: 270deg;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid grey;
+    margin: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+
+.degree {
+    position: absolute;
+    top: 55px;
+    left: 501px;
+    background-color: grey;
+    width: 261px;
+    height: 152px;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(249, 249, 249, 0.19);
+    border: 2px solid #F28500;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.degree h2 {
+    position: absolute;
+    left:10px;
+    font-size: 14px;
+    
+}
+
+.degree hr {
+    position: absolute;
+    width: 240px;
+    top: 50px;
+    left: 10px;
+}
+
+.degree p {
+    position: absolute;
+    top: 47px;
+    margin-left: 20px;
+}
+
+.degree-triangle {
+    top: 75px;
+    left: 379px;
+    rotate: 90deg;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid grey;
+    margin: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ;
+    
+}
+.animation-fade{
+    opacity: 1;
 }
 
 

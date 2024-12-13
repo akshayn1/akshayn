@@ -297,14 +297,35 @@ $(document).ready(function () {
 
     const observer = new IntersectionObserver(
       function (entries) {
+        $(".degree").removeClass("animation-fade");
+        $(".degree-triangle").removeClass("animation-fade");
+        $(".plustwo").removeClass("animation-fade");
+        $(".plustwo-triangle").removeClass("animation-fade");
+        $(".sslc").removeClass("animation-fade");
+        $(".sslc-triangle").removeClass("animation-fade");
+        $($bars).css("background-color", "rgb(53, 53, 53)");
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            $($bars).css("background-color", "gray");
+            
+            
             $($bars).each(function (index, bar) {
               setTimeout(() => {
                 $(bar).css("background-color", "#F28500");
               }, index * 100);
             });
+
+            setTimeout(() => {
+              $(".degree").addClass("animation-fade");
+              $(".degree-triangle ").addClass("animation-fade");
+            }, 1100);
+            setTimeout(() => {
+              $(".plustwo").addClass("animation-fade");
+              $(".plustwo-triangle").addClass("animation-fade");
+            }, 600);
+            setTimeout(() => {
+              $(".sslc").addClass("animation-fade");
+              $(".sslc-triangle").addClass("animation-fade");
+            }, 100);
            
           }
         });
