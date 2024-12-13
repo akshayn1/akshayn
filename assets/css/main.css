@@ -1116,7 +1116,8 @@ body {
         display: none
     }
 }
-.about--main{
+
+.about--main {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1192,7 +1193,8 @@ body {
     height: 10px;
     background-color: #F28500
 }
-.skills{
+
+.skills {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1212,20 +1214,24 @@ body {
     justify-content: center;
     margin: 0 auto
 }
-.skills h3{
+
+.skills h3 {
     font-size: 19px;
     text-transform: uppercase
 }
+
 .skills p {
     margin-bottom: 0
 }
+
 .skills img {
-   
+
     position: absolute;
     bottom: 130px;
     right: -12px
 }
-.go--back{
+
+.go--back {
     position: absolute;
     top: 160px;
     display: -webkit-box;
@@ -1246,11 +1252,13 @@ body {
     border-radius: 50%;
     cursor: pointer
 }
-.go--back svg{
+
+.go--back svg {
     width: 20px;
     fill: white;
-    
+
 }
+
 .about--banner h2 {
     position: relative;
     margin-top: 35px;
@@ -1345,7 +1353,7 @@ body {
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/about-education.jpg")
 }
 
 .about--options>a:hover h3 {
@@ -1362,7 +1370,7 @@ body {
     transition: bottom .2s ease-in-out, left .2s ease-in-out
 }
 
-.experience{
+.experience {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1382,21 +1390,24 @@ body {
     justify-content: center;
     margin: 0 auto
 }
-.experience h3{
+
+.experience h3 {
     font-size: 19px;
     text-transform: uppercase
 }
+
 .experience p {
     margin-bottom: 0
 }
+
 .experience img {
-   
+
     position: absolute;
     bottom: 152px;
     right: -185px;
 }
 
-.experience--go--back{
+.experience--go--back {
     position: absolute;
     top: 55px;
     display: -webkit-box;
@@ -1417,11 +1428,187 @@ body {
     border-radius: 50%;
     cursor: pointer
 }
-.experience--go--back svg{
+
+.experience--go--back svg {
     width: 20px;
     fill: white;
-    
+
 }
+
+.education {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    /* max-width: 75%; */
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.education h3 {
+    font-size: 19px;
+    text-transform: uppercase
+}
+
+.education p {
+    margin-bottom: 0
+}
+
+.education img {
+
+    position: absolute;
+    bottom: 152px;
+    right: -185px;
+}
+
+.education--go--back {
+    position: absolute;
+    top: 55px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #282828;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.education--go--back svg {
+    width: 20px;
+    fill: white;
+
+}
+
+.outer-box {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.line {
+    position: absolute;
+    height: 35px;
+    width: 16px;
+    background-color: grey;
+    transition: background-color 0.5s ease;
+
+
+}
+
+.line1 {
+    top: 105px;
+    left: 382px;
+    rotate: 0deg;
+}
+
+.line2 {
+    top: 145px;
+    left: 372px;
+    rotate: 26deg;
+}
+
+.line3 {
+    top: 183px;
+    left: 347px;
+    rotate: 37deg;
+}
+
+.line4 {
+    top: 218px;
+    left: 324px;
+    rotate: 30deg;
+}
+
+.line5 {
+    top: 256px;
+    left: 309px;
+    rotate: 14deg;
+}
+
+.line6 {
+    top: 297px;
+    left: 306px;
+    rotate: 354deg;
+}
+
+.line7 {
+    top: 338px;
+    left: 315px;
+    rotate: 340deg;
+}
+
+.line8 {
+    top: 374px;
+    left: 337px;
+    rotate: 320deg;
+}
+
+.line9 {
+    top: 401px;
+    left: 370px;
+    rotate: 301deg;
+}
+
+.line10 {
+    top: 421px;
+    left: 407px;
+    rotate: 297deg;
+}
+
+.line11 {
+    top: 441px;
+    left: 440px;
+    rotate: 304deg;
+}
+
+.line12 {
+    top: 469px;
+    left: 471px;
+    rotate: 322deg;
+}
+
+.line13 {
+    top: 508px;
+    left: 487px;
+    rotate: 349deg;
+}
+
+.line14 {
+    top: 550px;
+    left: 490px;
+    rotate: 1deg;
+}
+
+.line15 {
+    top: 592px;
+    left: 488px;
+    rotate: 0deg;
+}
+
+
 
 @media (max-width: 767px) {
     .about--banner {

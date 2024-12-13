@@ -146,7 +146,7 @@ $(document).ready(function () {
     }
     else {
       $('.header--cta').removeClass('is-active');
-      
+
     }
 
   }
@@ -193,7 +193,7 @@ $(document).ready(function () {
       $('.slider').animate({ opacity: 0 }, 400);
 
       setTimeout(function () {
-       
+
         if ($this.hasClass('slider--next')) {
           if (curLeftPos < totalWorks - 1 && curCenterPos < totalWorks - 1 && curRightPos < totalWorks - 1) {
             $left.removeClass('slider--item-left').next().addClass('slider--item-left');
@@ -272,26 +272,48 @@ $(document).ready(function () {
   }
 
   function aboutSec() {
-      const $mainContainer = $('.about--main');
-  
-      $mainContainer.on('click', 'a', function(event) {
-          event.preventDefault();
-  
-          const targetDivId = $(this).data('target');
-  
-          // Hide all children of the main container
-          $mainContainer.children().hide();
-  
-          // Show the target div
-          const $targetDiv = $(`.${targetDivId}`);
-        if ($targetDiv.length) {
-          $targetDiv.show();
-          }
-      });
- 
-  
-  }
+    const $mainContainer = $('.about--main');
 
+    $mainContainer.on('click', 'a', function (event) {
+      event.preventDefault();
+
+      const targetDivId = $(this).data('target');
+
+      // Hide all children of the main container
+      $mainContainer.children().hide();
+
+      // Show the target div
+      const $targetDiv = $(`.${targetDivId}`);
+      if ($targetDiv.length) {
+        $targetDiv.show();
+      }
+    });
+
+
+  }
+  function animationEducation() {
+    const $routebar = $('.outer-box');
+    const $bars = $routebar.find(".line").toArray().reverse();
+
+    const observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            $($bars).css("background-color", "gray");
+            $($bars).each(function (index, bar) {
+              setTimeout(() => {
+                $(bar).css("background-color", "#F28500");
+              }, index * 100);
+            });
+           
+          }
+        });
+      },
+      {threshold:0.5}
+    );
+    observer.observe($routebar[0]);
+  }
+  animationEducation();
   aboutSec();
   outerNav();
   workSlider();
