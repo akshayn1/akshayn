@@ -329,7 +329,7 @@ $(document).ready(function () {
           }
         });
       },
-      {threshold:0.5}
+      {threshold:0}
     );
     observer.observe($routebar[0]);
   }
