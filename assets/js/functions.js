@@ -126,7 +126,6 @@ $(document).ready(function () {
 
   // update main content area
   function updateContent(curPos, nextPos, lastItem) {
-
     $('.main-content').children().removeClass('section--is-active');
     $('.main-content').children().eq(nextPos).addClass('section--is-active');
     $('.main-content .section').children().removeClass('section--next section--prev');
@@ -334,6 +333,21 @@ $(document).ready(function () {
     );
     observer.observe($routebar[0]);
   }
+  function homepageOptions() {
+    $(".about-intro-option").click(function () {
+      updateNavs(2)
+      updateContent(0, 2, 4);
+    });
+    $(".works-intro-option").click(function () {
+      updateNavs(1)
+      updateContent(0, 1, 4);
+    });
+    $(".contact-intro-option").click(function () {
+      updateNavs(3)
+      updateContent(0, 3, 4);
+    })
+  }
+  homepageOptions();
   animationEducation();
   aboutSec();
   outerNav();
