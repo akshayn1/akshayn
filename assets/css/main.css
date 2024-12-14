@@ -1929,6 +1929,10 @@ body {
     font-weight: 700
 }
 
+.github-icon{
+    font-size:24px
+}
+
 .hire {
     position: relative;
     display: -webkit-box;
