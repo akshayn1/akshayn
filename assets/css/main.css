@@ -1117,6 +1117,37 @@ body {
     }
 }
 
+.download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 7px 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+
+  .icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .download-btn:hover .icon {
+    transform: translateX(8px);
+  }
+
+  .download-btn:active .icon {
+    transform: translateX(0px);
+  }
+
 .about--main {
     position: relative;
     display: -webkit-box;

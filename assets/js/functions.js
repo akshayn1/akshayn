@@ -269,6 +269,8 @@ $(document).ready(function () {
     });
 
   }
+  
+
 
   function aboutSec() {
     const $mainContainer = $('.about--main');
@@ -290,6 +292,7 @@ $(document).ready(function () {
 
 
   }
+  
   function animationEducation() {
     const $routebar = $('.outer-box');
     const $bars = $routebar.find(".line").toArray().reverse();
@@ -355,3 +358,12 @@ $(document).ready(function () {
   transitionLabels();
 
 });
+function downloadCV() {
+  const link = $('<a>', {
+      href: 'assets/resume/akshaynresume.pdf', // Set the correct file path
+      download: 'akshay_n_cv.pdf' // Set the filename
+  }).appendTo('body');
+
+  link[0].click();
+  link.remove();
+}
